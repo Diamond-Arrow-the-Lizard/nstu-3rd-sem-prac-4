@@ -36,7 +36,12 @@ namespace Prac4 {
         public void getSummerWinterMonths() {
 
             var selectedMonths = from month in months
-                where ( (month == "January") || (month == "February") || (month == "December") || (month == "June") || (month == "July") || (month == "August") )
+                where ( (month == "January") 
+                        || (month == "February") 
+                        || (month == "December") 
+                        || (month == "June") 
+                        || (month == "July") 
+                        || (month == "August") )
                 orderby month
                 select month;
 
@@ -47,10 +52,29 @@ namespace Prac4 {
         }
 
         public void printAlphabetically() {
+            
+            var selectedMonths = from month in months
+                orderby month
+                select month;
+
+            foreach(string item in selectedMonths) {
+                Console.Write(item + " ");
+            }
+            Console.WriteLine("\n");
 
         }
 
         public void getMonthsWithUandLenOfFour() {
+            
+            var selectedMonths = from month in months
+                where ( (month.Length == 4) && (month.ToLower().Contains('u')) )
+                orderby month
+                select month;
+
+            foreach(string item in selectedMonths) {
+                Console.Write(item + " ");
+            }
+            Console.WriteLine("\n");
 
         }
 
@@ -64,6 +88,8 @@ namespace Prac4 {
             monthsTask.getMonthsOfLen(7);
             monthsTask.getMonthsOfLen(8);
             monthsTask.getSummerWinterMonths();
+            monthsTask.printAlphabetically();
+            monthsTask.getMonthsWithUandLenOfFour();
 
 
         }

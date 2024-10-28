@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("nstu-3rd-sem-prac-4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1d6eca71536a18b1c0a0832accddfc931b5bc00")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2b11db71c832403cf264f8101ad6e7461dc5ffd")]
 [assembly: System.Reflection.AssemblyProductAttribute("nstu-3rd-sem-prac-4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("nstu-3rd-sem-prac-4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
