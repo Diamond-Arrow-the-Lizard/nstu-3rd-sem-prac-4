@@ -1,0 +1,15 @@
+/home/d-arrow/programming/nstu-3rd-sem-prac-4/obj/Debug/net8.0/nstu-3rd-sem-prac-4.GeneratedMSBuildEditorConfig.editorconfig
+/home/d-arrow/programming/nstu-3rd-sem-prac-4/obj/Debug/net8.0/nstu-3rd-sem-prac-4.AssemblyInfoInputs.cache
+/home/d-arrow/programming/nstu-3rd-sem-prac-4/obj/Debug/net8.0/nstu-3rd-sem-prac-4.AssemblyInfo.cs
+/home/d-arrow/programming/nstu-3rd-sem-prac-4/obj/Debug/net8.0/nstu-3rd-sem-prac-4.csproj.CoreCompileInputs.cache
+/home/d-arrow/programming/nstu-3rd-sem-prac-4/obj/Debug/net8.0/nstu-3rd-sem-prac-4.sourcelink.json
+/home/d-arrow/programming/nstu-3rd-sem-prac-4/bin/Debug/net8.0/nstu-3rd-sem-prac-4
+/home/d-arrow/programming/nstu-3rd-sem-prac-4/bin/Debug/net8.0/nstu-3rd-sem-prac-4.deps.json
+/home/d-arrow/programming/nstu-3rd-sem-prac-4/bin/Debug/net8.0/nstu-3rd-sem-prac-4.runtimeconfig.json
+/home/d-arrow/programming/nstu-3rd-sem-prac-4/bin/Debug/net8.0/nstu-3rd-sem-prac-4.dll
+/home/d-arrow/programming/nstu-3rd-sem-prac-4/bin/Debug/net8.0/nstu-3rd-sem-prac-4.pdb
+/home/d-arrow/programming/nstu-3rd-sem-prac-4/obj/Debug/net8.0/nstu-3rd-sem-prac-4.dll
+/home/d-arrow/programming/nstu-3rd-sem-prac-4/obj/Debug/net8.0/refint/nstu-3rd-sem-prac-4.dll
+/home/d-arrow/programming/nstu-3rd-sem-prac-4/obj/Debug/net8.0/nstu-3rd-sem-prac-4.pdb
+/home/d-arrow/programming/nstu-3rd-sem-prac-4/obj/Debug/net8.0/nstu-3rd-sem-prac-4.genruntimeconfig.cache
+/home/d-arrow/programming/nstu-3rd-sem-prac-4/obj/Debug/net8.0/ref/nstu-3rd-sem-prac-4.dll
