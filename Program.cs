@@ -4,7 +4,7 @@ namespace Prac4 {
 
     public class Task1 {
         
-        public const string[] month = {
+        string[] months = {
             "January", 
             "February", 
             "March", 
@@ -20,7 +20,17 @@ namespace Prac4 {
         };
 
         public void getMonthsOfLen(int n) {
+            
+            var selectedMonths = from month in months
+                where (month.Length == n)
+                orderby month
+                select month;
 
+            foreach(string item in selectedMonths) {
+                Console.Write(item + " ");
+            }
+            Console.WriteLine("\n");
+            
         }
 
         public void getSummerWinterMonths() {
@@ -40,6 +50,10 @@ namespace Prac4 {
     public class Program {
 
         public static void Main(string[] args) {
+
+            Task1 monthsTask = new Task1();
+            monthsTask.getMonthsOfLen(7);
+            monthsTask.getMonthsOfLen(8);
 
 
         }
