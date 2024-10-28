@@ -3,7 +3,7 @@
 namespace Prac4 {
 
     public class Task1 {
-        
+
         string[] months = {
             "January", 
             "February", 
@@ -20,7 +20,7 @@ namespace Prac4 {
         };
 
         public void getMonthsOfLen(int n) {
-            
+
             var selectedMonths = from month in months
                 where (month.Length == n)
                 orderby month
@@ -30,7 +30,7 @@ namespace Prac4 {
                 Console.Write(item + " ");
             }
             Console.WriteLine("\n");
-            
+
         }
 
         public void getSummerWinterMonths() {
@@ -52,7 +52,7 @@ namespace Prac4 {
         }
 
         public void printAlphabetically() {
-            
+
             var selectedMonths = from month in months
                 orderby month
                 select month;
@@ -65,7 +65,7 @@ namespace Prac4 {
         }
 
         public void getMonthsWithUandLenOfFour() {
-            
+
             var selectedMonths = from month in months
                 where ( (month.Length == 4) && (month.ToLower().Contains('u')) )
                 orderby month
@@ -79,7 +79,19 @@ namespace Prac4 {
         }
 
     }
-    
+
+    // |--------------------------------------------------------------------------------------------|    
+
+
+    public class Date {
+        
+        public void DateListForYear(int year) {
+            
+            var calendar = new GrigorianCalendar();
+        }
+
+    } 
+
     public class Program {
 
         public static void Main(string[] args) {
@@ -90,6 +102,8 @@ namespace Prac4 {
             monthsTask.getSummerWinterMonths();
             monthsTask.printAlphabetically();
             monthsTask.getMonthsWithUandLenOfFour();
+
+            Date date1 = new Date();
 
 
         }
